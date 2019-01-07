@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_edenor_wdrgy-console-icon</name>
+   <tag></tag>
+   <elementGuidId>74c08f83-f0a7-4f8d-b28b-8cb1b2c25ae1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='chat-bot']/div/div/div/div[3]/div/label/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wdrgy-console-icon</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAMAAABrrFhUAAAAllBMVEUAAAAdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYwdVYzKSId3AAAAMXRSTlMAgRn6pTfKXAbogBjJW+eksdP0+Rc5fZ/C5P4IKEpsjrDBB9LjNhYnOElaa/N8jZ79kS8FaAAABBdJREFUeNrtnYlWE0EQRUMQZCIEJa64ooj78v7/58xRPIKZrNNLVd+6f5B33oVkprtqNAqCIAiCIAiCIAiCIAhg7I3hAWj/zgE7gDmHd4/YAUgd1wRdgzVB/2CaoJsQTdBteCZoAZgJ6gFlgnoBmaBlUEzQchgmaBUEE7SG5k3QWrrJmB1A4yZoM9o1QZvSqgnanDZN0FY0aIK2pJvcYwfQnAnahZZM0G60Y4J2pRUTNIAmTNAgGjBBA3FvgoZz7NoEpcCzCUqDXxOUDKcmKCEuTVBSHJqg1HgzQenxZYJy4MkEZcKNCcqGExOUERcmKC/2TVBurJug/Ng2QUUwbIIKYdYEFcOoCSqJRRNUFnsmqDTWTFAFTJmgKhgyQZUwY4LqYcME1cSCCapLfRNUneOTI3YA0rSmCTJBRRNkhVomyA51TJAlapggYxQ3QeYobIIMUtQE2aScCbJKKRNklzImyDQFTJBxspsg8+yfHrADyGyCfJDPBHkhlwlyRBYT5IoMJsgZyU2QP9KaII+kNEE+SWeC3JLIBDkmiQlyTQIT5J2hJsg/w0y4/+DMfwSzYSY8fHTy+MnTZ+doE+Y8f/Hy1es3fguR7NvR70JceCzELOnvhLcuC5HhF7O3QuR6dvSnEO/OcCb0F+LyHGeCt0KUerNmuBB5TfBRiPLnjswVotIJPEuFmJ2+r3cI8cpGISqfRZ0X4kPtQkxt3E+4+livEFVNWCjEpyqFqG5C/UJMTd7eLFoISyYsFuJzkUKYM2GxEF/mhfiKM6GnEN+yFcKyCT2F+J6jENZN6CvEj4vLnzgTshbCkQkRAFYB7h9B7L9B7hch7Fdh7o8h7M9h7gMR7CMx7kNR7GNx7osR7Ksx7stR7Otx7gEJ7BEZ7iEp7DE57kFJ7FFZ7mFp9nF5/IUJ/59+4N999x+ffWkKfm0OfnGSfXUWfnkafn2ePUABPkIDPkSFPUYHPkgJPkqLPUwNPk4PPlCRPVITPlQVPlaXPVgZPlobPlydPV4fvmABvmKDvWQFvmYHvmiJvWoLvmwNvm6PvXARvnITvnSVvXYXvngZvnqbvXzdWvcLB9BZvavO7X65AIx2v1QAnfE5DdzuFwjAdvezB9D5GNPD7X7OAFx0P18AnasRVdzuZwnAU/czBNB5HM/G7X7aABx2P2UALrufLgCn3U8UgN/uJwnAc/cTBHDouvtDA3Df/WEBNND9IQE00f2dA2il+zsG0E73dwqgpe5vH0Bj3d82gG4yHo24ATTY/S0CaLP7GwfQavc3DKDd7m8SQNPdXx9AtzcejbgBNN/9lQEQur8iAEb3lwZA6X5/AKDu9wWA6v5iALDu/xcAr/u3AiB2/0YAzO7/DQDb/Wu43Q+CIAiCIAiCIAiCIAiY/AKY94qAzPz3hQAAAABJRU5ErkJggg==</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>send</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;chat-bot&quot;)/div[@class=&quot;wdrgy-wc-app&quot;]/div[@class=&quot;wdrgy-wc-chatview-panel&quot;]/div[1]/div[@class=&quot;wdrgy-wc-shell-panel-group&quot;]/div[@class=&quot;wdrgy-wc-console has-text&quot;]/label[@class=&quot;wdrgy-wc-send wdrgy-align-center&quot;]/img[@class=&quot;wdrgy-console-icon&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='chat-bot']/div/div/div/div[3]/div/label/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='edenor'])[1]/following::img[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PREGUNTAS FRECUENTES'])[1]/preceding::img[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quiero ver mi factura online'])[1]/preceding::img[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <value>//img[@alt='send']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//label/img</value>
+   </webElementXpaths>
+</WebElementEntity>

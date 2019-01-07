@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-01-05T14:46:15</date>
+  <millis>1546710375006</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/New Test Suite</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">New Test Suite</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/New Test Suite</property>
+</record>
+<record>
+  <date>2019-01-05T14:46:15</date>
+  <millis>1546710375031</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = marce - FOLIO</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">marce - FOLIO</property>
+</record>
+<record>
+  <date>2019-01-05T14:46:15</date>
+  <millis>1546710375061</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-01-05T14:46:15</date>
+  <millis>1546710375063</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.56.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.56.1</property>
+</record>
+<record>
+  <date>2019-01-05T14:46:15</date>
+  <millis>1546710375066</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 5.10.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.10.1.1</property>
+</record>
+<record>
+  <date>2019-01-05T14:46:15</date>
+  <millis>1546710375504</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start setup action : setUp</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="isIgnoredIfFailed">false</property>
+</record>
+<record>
+  <date>2019-01-05T14:46:16</date>
+  <millis>1546710376083</millis>
+  <sequence>6</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>startup failed:\r\nfile:/C:/Katalon/Bot/Test%20Suites/New%20Test%20Suite.groovy: 64: Modifier &amp;apos;private&amp;apos; not allowed here.\n @ line 64, column 2.\r\n   \tprivate RequestObject slackMessage = findTestObject(\&amp;quot;SlackWSO\&amp;quot;)\r\n    ^\r\n\r\nfile:/C:/Katalon/Bot/Test%20Suites/New%20Test%20Suite.groovy: 35: Expected &amp;apos;True&amp;apos; to be an inline constant of type boolean in @com.kms.katalon.core.annotation.SetUp\n @ line 35, column 18.\r\n   @SetUp(skipped = True) // Please change skipped to be false to activate this method.\r\n                    ^\r\n\r\nfile:/C:/Katalon/Bot/Test%20Suites/New%20Test%20Suite.groovy: -1: Attribute &amp;apos;skipped&amp;apos; should have type &amp;apos;java.lang.Boolean&amp;apos;; but found type &amp;apos;java.lang.Object&amp;apos; in @com.kms.katalon.core.annotation.SetUp\n @ line -1, column -1.\r\nfile:/C:/Katalon/Bot/Test%20Suites/New%20Test%20Suite.groovy: 45: Expected &amp;apos;True&amp;apos; to be an inline constant of type boolean in @com.kms.katalon.core.annotation.TearDown\n @ line 45, column 21.\r\n   @TearDown(skipped = True) // Please change skipped to be false to activate this method.\r\n                       ^\r\n\r\nfile:/C:/Katalon/Bot/Test%20Suites/New%20Test%20Suite.groovy: -1: Attribute &amp;apos;skipped&amp;apos; should have type &amp;apos;java.lang.Boolean&amp;apos;; but found type &amp;apos;java.lang.Object&amp;apos; in @com.kms.katalon.core.annotation.TearDown\n @ line -1, column -1.\r\n5 errors\r\n</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-01-05T14:46:16</date>
+  <millis>1546710376088</millis>
+  <sequence>7</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : setUp</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-01-05T14:46:16</date>
+  <millis>1546710376290</millis>
+  <sequence>8</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/New Test Suite</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

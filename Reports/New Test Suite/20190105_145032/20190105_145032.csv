@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,,,2019-01-05 14:50:35,2019-01-05 14:50:36,"1,623s",ERROR
+,,,,,,
+Test Cases/EdenorBOT,,,2019-01-05 14:50:35,2019-01-05 14:50:36,"0,734s",ERROR
+Start setup action : setupTestCase,,,2019-01-05 14:50:35,2019-01-05 14:50:36,"0,490s",ERROR

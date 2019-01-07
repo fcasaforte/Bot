@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite EdenorBot" time="39" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite EdenorBot" tests="1" failures="0" errors="0" time="39" timestamp="2019-01-05 13:07:46" hostname="marce - FOLIO" id="Test Suites/Test Suite EdenorBot">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon\\Bot\\Reports\\Test Suite EdenorBot\\20190105_130740"/>
+         <property name="logFiles" value="C:\\Katalon\\Bot\\Reports\\Test Suite EdenorBot\\20190105_130740\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="marce - FOLIO"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+         <property name="browser" value="Firefox 64.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="c561f9d8-b9a7-4b2f-9a01-34578e71738d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/EdenorBOT" classname="Test Cases/EdenorBOT" status="PASSED">
+         <system-out><![CDATA[2019-01-05 13:07:48 - [TEST_CASE][PASSED] - Test Cases/EdenorBOT: Test Cases/EdenorBOT
+
+2019-01-05 13:07:48 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-01-05 13:07:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-05 13:07:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-01-05 13:07:48 - [TEST_STEP][ERROR] - Start listener action : notifyBeforeTestCase: org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: com.kms.katalon.core.testobject.RequestObject.setBodyContent() is applicable for argument types: (java.lang.String) values: [{"text": "Test Cases/EdenorBOT: Running"}"]
+Possible solutions: setBodyContent(com.kms.katalon.core.testobject.HttpBodyContent), getBodyContent()
+
+2019-01-05 13:07:48 - [TEST_STEP][ERROR] - slackMessage.setBodyContent("{"text": "" + testCaseContext.getTestCaseId() + ": Running"}""): org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: com.kms.katalon.core.testobject.RequestObject.setBodyContent() is applicable for argument types: (java.lang.String) values: [{"text": "Test Cases/EdenorBOT: Running"}"]
+Possible solutions: setBodyContent(com.kms.katalon.core.testobject.HttpBodyContent), getBodyContent()
+
+2019-01-05 13:07:48 - [MESSAGE][ERROR] - org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: com.kms.katalon.core.testobject.RequestObject.setBodyContent() is applicable for argument types: (java.lang.String) values: [{"text": "Test Cases/EdenorBOT: Running"}"]
+Possible solutions: setBodyContent(com.kms.katalon.core.testobject.HttpBodyContent), getBodyContent()
+
+2019-01-05 13:07:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-05 13:07:49 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-01-05 13:07:49 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-05 13:07:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-05 13:07:59 - [TEST_STEP][PASSED] - navigateToUrl("http://www.edenor.com.ar/cms/SP/CLI/home.html"): Navigate to 'http://www.edenor.com.ar/cms/SP/CLI/home.html' successfully
+
+2019-01-05 13:08:04 - [MESSAGE][PASSED] - Navigate to 'http://www.edenor.com.ar/cms/SP/CLI/home.html' successfully
+
+2019-01-05 13:08:04 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/BOT/Page_Edenor Clientes/img"), 0): Object 'Object Repository/BOT/Page_Edenor Clientes/img' is clickable
+
+2019-01-05 13:08:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-05 13:08:04 - [MESSAGE][PASSED] - Object 'Object Repository/BOT/Page_Edenor Clientes/img' is clickable
+
+2019-01-05 13:08:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BOT/Page_Edenor Clientes/img")): Object: 'Object Repository/BOT/Page_Edenor Clientes/img' is clicked on
+
+2019-01-05 13:08:05 - [MESSAGE][PASSED] - Object: 'Object Repository/BOT/Page_Edenor Clientes/img' is clicked on
+
+2019-01-05 13:08:05 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/BOT/Page_Edenor Clientes/div_Hola soy el asistente virt"), 0): Object 'Object Repository/BOT/Page_Edenor Clientes/div_Hola soy el asistente virt' is present
+
+2019-01-05 13:08:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-05 13:08:05 - [MESSAGE][PASSED] - Object 'Object Repository/BOT/Page_Edenor Clientes/div_Hola soy el asistente virt' is present
+
+2019-01-05 13:08:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/BOT/Page_Edenor Clientes/input_Hola_wdrgy-wc-shellinput"), "Hola"): Text 'Hola' is set on object 'Object Repository/BOT/Page_Edenor Clientes/input_Hola_wdrgy-wc-shellinput'
+
+2019-01-05 13:08:05 - [MESSAGE][PASSED] - Text 'Hola' is set on object 'Object Repository/BOT/Page_Edenor Clientes/input_Hola_wdrgy-wc-shellinput'
+
+2019-01-05 13:08:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BOT/Page_Edenor Clientes/img_edenor_wdrgy-console-icon")): Object: 'Object Repository/BOT/Page_Edenor Clientes/img_edenor_wdrgy-console-icon' is clicked on
+
+2019-01-05 13:08:05 - [MESSAGE][PASSED] - Object: 'Object Repository/BOT/Page_Edenor Clientes/img_edenor_wdrgy-console-icon' is clicked on
+
+2019-01-05 13:08:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/BOT/Page_Edenor Clientes/p_Hola Espero que ests muy bie"), 0): Object 'Object Repository/BOT/Page_Edenor Clientes/p_Hola Espero que ests muy bie' is present
+
+2019-01-05 13:08:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-05 13:08:06 - [MESSAGE][PASSED] - Object 'Object Repository/BOT/Page_Edenor Clientes/p_Hola Espero que ests muy bie' is present
+
+2019-01-05 13:08:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-05 13:08:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-05 13:08:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/BOT/Page_Edenor Clientes/input_Resolv tu consulta_wdrgy"), "Informacion"): Text 'Informacion' is set on object 'Object Repository/BOT/Page_Edenor Clientes/input_Resolv tu consulta_wdrgy'
+
+2019-01-05 13:08:12 - [MESSAGE][PASSED] - Text 'Informacion' is set on object 'Object Repository/BOT/Page_Edenor Clientes/input_Resolv tu consulta_wdrgy'
+
+2019-01-05 13:08:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BOT/Page_Edenor Clientes/img_Resolv tu consulta_wdrgy-c")): Object: 'Object Repository/BOT/Page_Edenor Clientes/img_Resolv tu consulta_wdrgy-c' is clicked on
+
+2019-01-05 13:08:12 - [MESSAGE][PASSED] - Object: 'Object Repository/BOT/Page_Edenor Clientes/img_Resolv tu consulta_wdrgy-c' is clicked on
+
+2019-01-05 13:08:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-05 13:08:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-05 13:08:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/BOT/Page_Edenor Clientes/p_MIDE es la nueva forma de co"), 0): Object 'Object Repository/BOT/Page_Edenor Clientes/p_MIDE es la nueva forma de co' is visible
+
+2019-01-05 13:08:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-05 13:08:17 - [MESSAGE][PASSED] - Object 'Object Repository/BOT/Page_Edenor Clientes/p_MIDE es la nueva forma de co' is visible
+
+2019-01-05 13:08:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/BOT/Page_Edenor Clientes/input_Resolv tu consulta_wdrgy"), "Gracias"): Text 'Gracias' is set on object 'Object Repository/BOT/Page_Edenor Clientes/input_Resolv tu consulta_wdrgy'
+
+2019-01-05 13:08:18 - [MESSAGE][PASSED] - Text 'Gracias' is set on object 'Object Repository/BOT/Page_Edenor Clientes/input_Resolv tu consulta_wdrgy'
+
+2019-01-05 13:08:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BOT/Page_Edenor Clientes/img_Resolv tu consulta_wdrgy-c")): Object: 'Object Repository/BOT/Page_Edenor Clientes/img_Resolv tu consulta_wdrgy-c' is clicked on
+
+2019-01-05 13:08:18 - [MESSAGE][PASSED] - Object: 'Object Repository/BOT/Page_Edenor Clientes/img_Resolv tu consulta_wdrgy-c' is clicked on
+
+2019-01-05 13:08:18 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-05 13:08:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-05 13:08:23 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-05 13:08:23 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-05 13:08:23 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2019-01-05 13:08:23 - [TEST_STEP][ERROR] - Start listener action : notifyAfterTestCase: org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: com.kms.katalon.core.testobject.RequestObject.setBodyContent() is applicable for argument types: (java.lang.String) values: [{"text": "Test Cases/EdenorBOT: PASSED"}"]
+Possible solutions: setBodyContent(com.kms.katalon.core.testobject.HttpBodyContent), getBodyContent()
+
+2019-01-05 13:08:23 - [TEST_STEP][PASSED] - testCaseStatus = testCaseContext.getTestCaseStatus(): null
+
+2019-01-05 13:08:23 - [TEST_STEP][PASSED] - variables = testCaseContext.getTestCaseVariables(): null
+
+2019-01-05 13:08:23 - [TEST_STEP][ERROR] - slackMessage.setBodyContent("{"text": "" + testCaseContext.getTestCaseId() + ": " + testCaseStatus + ""}""): org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: com.kms.katalon.core.testobject.RequestObject.setBodyContent() is applicable for argument types: (java.lang.String) values: [{"text": "Test Cases/EdenorBOT: PASSED"}"]
+Possible solutions: setBodyContent(com.kms.katalon.core.testobject.HttpBodyContent), getBodyContent()
+
+2019-01-05 13:08:23 - [MESSAGE][ERROR] - org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: com.kms.katalon.core.testobject.RequestObject.setBodyContent() is applicable for argument types: (java.lang.String) values: [{"text": "Test Cases/EdenorBOT: PASSED"}"]
+Possible solutions: setBodyContent(com.kms.katalon.core.testobject.HttpBodyContent), getBodyContent()]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-05 13:07:46 - [TEST_SUITE][PASSED] - Test Suite EdenorBot: Test Cases/EdenorBOT]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

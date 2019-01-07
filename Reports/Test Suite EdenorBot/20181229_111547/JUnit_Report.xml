@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite EdenorBot" time="37" tests="0" failures="1" errors="0">
+   <testsuite name="Test Suite EdenorBot" tests="0" failures="1" errors="0" time="37" timestamp="2018-12-29 11:15:56" hostname="marce - FOLIO" id="Test Suites/Test Suite EdenorBot">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon\\Bot\\Reports\\Test Suite EdenorBot\\20181229_111547"/>
+         <property name="logFiles" value="C:\\Katalon\\Bot\\Reports\\Test Suite EdenorBot\\20181229_111547\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="marce - FOLIO"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Firefox 64.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="ec6c73e5-202c-4634-b2f9-26ab3450b01b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/EdenorBOT" classname="Test Cases/EdenorBOT" status="FAILED">
+         <failure type="FAILED" message="Test Cases/EdenorBOT FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object 'Object Repository/BOT/Page_Edenor Clientes/p_MIDE es la nueva forma de co' to be visible (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'FOLIO', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 11152, moz:profile: C:\Users\marce\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ec6c73e5-202c-4634-b2f9-26ab3450b01b
+*** Element info: {Using=xpath, value=//div[@id='chat-bot']/div/div/div/div[2]/div/div/div[5]/div/div/div/div/p})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.waitForElementVisible(WaitForElementVisibleKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.execute(WaitForElementVisibleKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(WebUiBuiltInKeywords.groovy:434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementVisible$6.call(Unknown Source)
+	at EdenorBOT.run(EdenorBOT:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546092952583.run(TempTestSuite1546092952583.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-29 11:15:56 - [TEST_CASE][FAILED] - Test Cases/EdenorBOT: Test Cases/EdenorBOT FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object 'Object Repository/BOT/Page_Edenor Clientes/p_MIDE es la nueva forma de co' to be visible (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'FOLIO', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 11152, moz:profile: C:\Users\marce\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ec6c73e5-202c-4634-b2f9-26ab3450b01b
+*** Element info: {Using=xpath, value=//div[@id='chat-bot']/div/div/div/div[2]/div/div/div[5]/div/div/div/div/p})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.waitForElementVisible(WaitForElementVisibleKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.execute(WaitForElementVisibleKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(WebUiBuiltInKeywords.groovy:434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementVisible$6.call(Unknown Source)
+	at EdenorBOT.run(EdenorBOT:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546092952583.run(TempTestSuite1546092952583.groovy:36)
+
+
+2018-12-29 11:15:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-29 11:15:58 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2018-12-29 11:15:58 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-29 11:16:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-29 11:16:05 - [TEST_STEP][PASSED] - navigateToUrl("http://www.edenor.com.ar/cms/SP/CLI/home.html"): Navigate to 'http://www.edenor.com.ar/cms/SP/CLI/home.html' successfully
+
+2018-12-29 11:16:20 - [MESSAGE][PASSED] - Navigate to 'http://www.edenor.com.ar/cms/SP/CLI/home.html' successfully
+
+2018-12-29 11:16:20 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/BOT/Page_Edenor Clientes/img"), 0): Object 'Object Repository/BOT/Page_Edenor Clientes/img' is clickable
+
+2018-12-29 11:16:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-12-29 11:16:21 - [MESSAGE][PASSED] - Object 'Object Repository/BOT/Page_Edenor Clientes/img' is clickable
+
+2018-12-29 11:16:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BOT/Page_Edenor Clientes/img")): Object: 'Object Repository/BOT/Page_Edenor Clientes/img' is clicked on
+
+2018-12-29 11:16:21 - [MESSAGE][PASSED] - Object: 'Object Repository/BOT/Page_Edenor Clientes/img' is clicked on
+
+2018-12-29 11:16:21 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/BOT/Page_Edenor Clientes/div_Hola soy el asistente virt"), 0): Object 'Object Repository/BOT/Page_Edenor Clientes/div_Hola soy el asistente virt' is present
+
+2018-12-29 11:16:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-12-29 11:16:21 - [MESSAGE][PASSED] - Object 'Object Repository/BOT/Page_Edenor Clientes/div_Hola soy el asistente virt' is present
+
+2018-12-29 11:16:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/BOT/Page_Edenor Clientes/input_Hola_wdrgy-wc-shellinput"), "Hola"): Text 'Hola' is set on object 'Object Repository/BOT/Page_Edenor Clientes/input_Hola_wdrgy-wc-shellinput'
+
+2018-12-29 11:16:21 - [MESSAGE][PASSED] - Text 'Hola' is set on object 'Object Repository/BOT/Page_Edenor Clientes/input_Hola_wdrgy-wc-shellinput'
+
+2018-12-29 11:16:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BOT/Page_Edenor Clientes/img_edenor_wdrgy-console-icon")): Object: 'Object Repository/BOT/Page_Edenor Clientes/img_edenor_wdrgy-console-icon' is clicked on
+
+2018-12-29 11:16:22 - [MESSAGE][PASSED] - Object: 'Object Repository/BOT/Page_Edenor Clientes/img_edenor_wdrgy-console-icon' is clicked on
+
+2018-12-29 11:16:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/BOT/Page_Edenor Clientes/p_Hola Espero que ests muy bie"), 0): Object 'Object Repository/BOT/Page_Edenor Clientes/p_Hola Espero que ests muy bie' is present
+
+2018-12-29 11:16:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-12-29 11:16:23 - [MESSAGE][PASSED] - Object 'Object Repository/BOT/Page_Edenor Clientes/p_Hola Espero que ests muy bie' is present
+
+2018-12-29 11:16:23 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2018-12-29 11:16:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-29 11:16:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/BOT/Page_Edenor Clientes/input_Resolv tu consulta_wdrgy"), "Informacion"): Text 'Informacion' is set on object 'Object Repository/BOT/Page_Edenor Clientes/input_Resolv tu consulta_wdrgy'
+
+2018-12-29 11:16:28 - [MESSAGE][PASSED] - Text 'Informacion' is set on object 'Object Repository/BOT/Page_Edenor Clientes/input_Resolv tu consulta_wdrgy'
+
+2018-12-29 11:16:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BOT/Page_Edenor Clientes/img_Resolv tu consulta_wdrgy-c")): Object: 'Object Repository/BOT/Page_Edenor Clientes/img_Resolv tu consulta_wdrgy-c' is clicked on
+
+2018-12-29 11:16:28 - [MESSAGE][PASSED] - Object: 'Object Repository/BOT/Page_Edenor Clientes/img_Resolv tu consulta_wdrgy-c' is clicked on
+
+2018-12-29 11:16:28 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2018-12-29 11:16:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-29 11:16:33 - [TEST_STEP][FAILED] - waitForElementVisible(findTestObject("Object Repository/BOT/Page_Edenor Clientes/p_MIDE es la nueva forma de co"), 0): waitForElementVisible(findTestObject("Object Repository/BOT/Page_Edenor Clientes/p_MIDE es la nueva forma de co"), 0) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object 'Object Repository/BOT/Page_Edenor Clientes/p_MIDE es la nueva forma de co' to be visible (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'FOLIO', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 11152, moz:profile: C:\Users\marce\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ec6c73e5-202c-4634-b2f9-26ab3450b01b
+*** Element info: {Using=xpath, value=//div[@id='chat-bot']/div/div/div/div[2]/div/div/div[5]/div/div/div/div/p})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.waitForElementVisible(WaitForElementVisibleKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.execute(WaitForElementVisibleKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(WebUiBuiltInKeywords.groovy:434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementVisible$6.call(Unknown Source)
+	at EdenorBOT.run(EdenorBOT:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546092952583.run(TempTestSuite1546092952583.groovy:36)
+
+
+2018-12-29 11:16:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-12-29 11:16:33 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-12-29 11:16:33 - [MESSAGE][FAILED] - Unable to wait for object 'Object Repository/BOT/Page_Edenor Clientes/p_MIDE es la nueva forma de co' to be visible (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'FOLIO', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 11152, moz:profile: C:\Users\marce\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ec6c73e5-202c-4634-b2f9-26ab3450b01b
+*** Element info: {Using=xpath, value=//div[@id='chat-bot']/div/div/div/div[2]/div/div/div[5]/div/div/div/div/p})
+
+2018-12-29 11:16:33 - [MESSAGE][FAILED] - waitForElementVisible(findTestObject("Object Repository/BOT/Page_Edenor Clientes/p_MIDE es la nueva forma de co"), 0) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object 'Object Repository/BOT/Page_Edenor Clientes/p_MIDE es la nueva forma de co' to be visible (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'FOLIO', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 11152, moz:profile: C:\Users\marce\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ec6c73e5-202c-4634-b2f9-26ab3450b01b
+*** Element info: {Using=xpath, value=//div[@id='chat-bot']/div/div/div/div[2]/div/div/div[5]/div/div/div/div/p})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.waitForElementVisible(WaitForElementVisibleKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.execute(WaitForElementVisibleKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(WebUiBuiltInKeywords.groovy:434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementVisible$6.call(Unknown Source)
+	at EdenorBOT.run(EdenorBOT:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546092952583.run(TempTestSuite1546092952583.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-29 11:15:56 - [TEST_CASE][FAILED] - Test Cases/EdenorBOT: Test Cases/EdenorBOT FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object 'Object Repository/BOT/Page_Edenor Clientes/p_MIDE es la nueva forma de co' to be visible (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'FOLIO', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 11152, moz:profile: C:\Users\marce\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ec6c73e5-202c-4634-b2f9-26ab3450b01b
+*** Element info: {Using=xpath, value=//div[@id='chat-bot']/div/div/div/div[2]/div/div/div[5]/div/div/div/div/p})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.waitForElementVisible(WaitForElementVisibleKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.execute(WaitForElementVisibleKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(WebUiBuiltInKeywords.groovy:434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementVisible$6.call(Unknown Source)
+	at EdenorBOT.run(EdenorBOT:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546092952583.run(TempTestSuite1546092952583.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-29 11:15:56 - [TEST_SUITE][INCOMPLETE] - Test Suite EdenorBot: null]]></system-out>
+      <system-err><![CDATA[2018-12-29 11:15:56 - [TEST_SUITE][INCOMPLETE] - Test Suite EdenorBot: null]]></system-err>
+   </testsuite>
+</testsuites>

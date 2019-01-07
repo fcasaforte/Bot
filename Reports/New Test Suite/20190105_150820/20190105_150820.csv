@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Firefox 64.0,,2019-01-05 15:08:23,2019-01-05 15:09:08,"44,584s",FAILED
+,,,,,,
+Test Cases/EdenorBOT,Firefox 64.0,,2019-01-05 15:08:24,2019-01-05 15:09:07,"42,655s",FAILED
+Start setup action : setupTestCase,Firefox 64.0,,2019-01-05 15:08:24,2019-01-05 15:08:25,"0,483s",PASSED
+"openBrowser("""")",Firefox 64.0,,2019-01-05 15:08:25,2019-01-05 15:08:32,"7,252s",PASSED
+"navigateToUrl(""http://www.edenor.com.ar/cms/SP/CLI/home.html"")",Firefox 64.0,,2019-01-05 15:08:32,2019-01-05 15:08:35,"2,405s",PASSED
+"waitForElementClickable(findTestObject(""Object Repository/BOT/Page_Edenor Clientes/img""), 0)",Firefox 64.0,,2019-01-05 15:08:35,2019-01-05 15:08:35,"0,184s",PASSED
+"click(findTestObject(""Object Repository/BOT/Page_Edenor Clientes/img""))",Firefox 64.0,,2019-01-05 15:08:35,2019-01-05 15:08:35,"0,446s",PASSED
+"waitForElementPresent(findTestObject(""Object Repository/BOT/Page_Edenor Clientes/div_Hola soy el asistente virt""), 0)",Firefox 64.0,,2019-01-05 15:08:35,2019-01-05 15:08:35,"0,043s",PASSED
+"setText(findTestObject(""Object Repository/BOT/Page_Edenor Clientes/input_Hola_wdrgy-wc-shellinput""), ""Hola"")",Firefox 64.0,,2019-01-05 15:08:35,2019-01-05 15:08:36,"0,136s",PASSED
+"click(findTestObject(""Object Repository/BOT/Page_Edenor Clientes/img_edenor_wdrgy-console-icon""))",Firefox 64.0,,2019-01-05 15:08:36,2019-01-05 15:08:36,"0,267s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/BOT/Page_Edenor Clientes/p_Hola Espero que ests muy bie""), 0)",Firefox 64.0,,2019-01-05 15:08:36,2019-01-05 15:09:07,"30,826s",FAILED
+Start tear down : tearDownTestCase,Firefox 64.0,,2019-01-05 15:09:07,2019-01-05 15:09:07,"0,057s",PASSED

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="1" tests="0" failures="0" errors="1">
+   <testsuite name="New Test Suite" tests="0" failures="0" errors="1" time="1" timestamp="2019-01-05 14:50:35" hostname="marce - FOLIO" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon\\Bot\\Reports\\New Test Suite\\20190105_145032"/>
+         <property name="logFiles" value="C:\\Katalon\\Bot\\Reports\\New Test Suite\\20190105_145032\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="marce - FOLIO"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+      </properties>
+      <testcase name="Test Cases/EdenorBOT" classname="Test Cases/EdenorBOT" status="ERROR">
+         <error type="ERROR" message=""/>
+         <system-out><![CDATA[2019-01-05 14:50:35 - [TEST_CASE][ERROR] - Test Cases/EdenorBOT: 
+
+2019-01-05 14:50:35 - [TEST_STEP][ERROR] - Start setup action : setupTestCase: startup failed:
+file:/C:/Katalon/Bot/Test%20Suites/New%20Test%20Suite.groovy: 63: Modifier 'private' not allowed here.
+ @ line 63, column 2.
+   	private RequestObject slackMessage = findTestObject("SlackWSO")
+    ^
+
+1 error
+
+
+2019-01-05 14:50:36 - [MESSAGE][ERROR] - startup failed:
+file:/C:/Katalon/Bot/Test%20Suites/New%20Test%20Suite.groovy: 63: Modifier 'private' not allowed here.
+ @ line 63, column 2.
+   	private RequestObject slackMessage = findTestObject("SlackWSO")
+    ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2019-01-05 14:50:35 - [TEST_CASE][ERROR] - Test Cases/EdenorBOT:]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-05 14:50:35 - [TEST_SUITE][ERROR] - New Test Suite:]]></system-out>
+      <system-err><![CDATA[2019-01-05 14:50:35 - [TEST_SUITE][ERROR] - New Test Suite:]]></system-err>
+   </testsuite>
+</testsuites>

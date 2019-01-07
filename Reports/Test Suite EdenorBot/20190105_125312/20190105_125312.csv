@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite EdenorBot,,,2019-01-05 12:53:18,2019-01-05 12:53:21,"3,825s",FAILED
+,,,,,,
+Test Cases/EdenorBOT,,,2019-01-05 12:53:19,2019-01-05 12:53:21,"1,977s",FAILED
+Start listener action : notifyBeforeTestCase,,,2019-01-05 12:53:19,2019-01-05 12:53:19,"0,061s",ERROR
+"navigateToUrl(""http://www.edenor.com.ar/cms/SP/CLI/home.html"")",,,2019-01-05 12:53:20,2019-01-05 12:53:21,"1,027s",FAILED
+Start listener action : notifyAfterTestCase,,,2019-01-05 12:53:21,2019-01-05 12:53:21,"0,059s",ERROR

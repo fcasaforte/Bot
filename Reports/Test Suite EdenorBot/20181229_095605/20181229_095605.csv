@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite EdenorBot,Firefox 64.0,,2018-12-29 09:56:15,2018-12-29 09:56:57,"42,117s",PASSED
+,,,,,,
+Test Cases/EdenorBOT,Firefox 64.0,,2018-12-29 09:56:15,2018-12-29 09:56:57,"41,323s",PASSED
+"openBrowser("""")",Firefox 64.0,,2018-12-29 09:56:16,2018-12-29 09:56:27,"10,729s",PASSED
+"navigateToUrl(""http://www.edenor.com.ar/cms/SP/CLI/home.html"")",Firefox 64.0,,2018-12-29 09:56:27,2018-12-29 09:56:35,"8,177s",PASSED
+"waitForElementClickable(findTestObject(""Object Repository/BOT/Page_Edenor Clientes/img""), 0)",Firefox 64.0,,2018-12-29 09:56:35,2018-12-29 09:56:36,"0,307s",PASSED
+"click(findTestObject(""Object Repository/BOT/Page_Edenor Clientes/img""))",Firefox 64.0,,2018-12-29 09:56:36,2018-12-29 09:56:36,"0,505s",PASSED
+"waitForElementPresent(findTestObject(""Object Repository/BOT/Page_Edenor Clientes/div_Hola soy el asistente virt""), 0)",Firefox 64.0,,2018-12-29 09:56:36,2018-12-29 09:56:36,"0,078s",PASSED
+"setText(findTestObject(""Object Repository/BOT/Page_Edenor Clientes/input_Hola_wdrgy-wc-shellinput""), ""Hola"")",Firefox 64.0,,2018-12-29 09:56:36,2018-12-29 09:56:36,"0,232s",PASSED
+"click(findTestObject(""Object Repository/BOT/Page_Edenor Clientes/img_edenor_wdrgy-console-icon""))",Firefox 64.0,,2018-12-29 09:56:36,2018-12-29 09:56:37,"0,475s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/BOT/Page_Edenor Clientes/p_Hola Espero que ests muy bie""), 0)",Firefox 64.0,,2018-12-29 09:56:37,2018-12-29 09:56:38,"1,120s",PASSED
+delay(5),Firefox 64.0,,2018-12-29 09:56:38,2018-12-29 09:56:43,"5,073s",PASSED
+"setText(findTestObject(""Object Repository/BOT/Page_Edenor Clientes/input_Resolv tu consulta_wdrgy""), ""Informacion"")",Firefox 64.0,,2018-12-29 09:56:43,2018-12-29 09:56:43,"0,321s",PASSED
+"click(findTestObject(""Object Repository/BOT/Page_Edenor Clientes/img_Resolv tu consulta_wdrgy-c""))",Firefox 64.0,,2018-12-29 09:56:43,2018-12-29 09:56:44,"0,395s",PASSED
+delay(5),Firefox 64.0,,2018-12-29 09:56:44,2018-12-29 09:56:49,"5,005s",PASSED
+"waitForElementVisible(findTestObject(""Object Repository/BOT/Page_Edenor Clientes/p_MIDE es la nueva forma de co""), 0)",Firefox 64.0,,2018-12-29 09:56:49,2018-12-29 09:56:49,"0,228s",PASSED
+"setText(findTestObject(""Object Repository/BOT/Page_Edenor Clientes/input_Resolv tu consulta_wdrgy""), ""Gracias"")",Firefox 64.0,,2018-12-29 09:56:49,2018-12-29 09:56:49,"0,191s",PASSED
+"click(findTestObject(""Object Repository/BOT/Page_Edenor Clientes/img_Resolv tu consulta_wdrgy-c""))",Firefox 64.0,,2018-12-29 09:56:49,2018-12-29 09:56:50,"0,391s",PASSED
+delay(5),Firefox 64.0,,2018-12-29 09:56:50,2018-12-29 09:56:55,"5,007s",PASSED
+closeBrowser(),Firefox 64.0,,2018-12-29 09:56:55,2018-12-29 09:56:57,"1,926s",PASSED

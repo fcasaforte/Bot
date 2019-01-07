@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Bot" time="34" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite Bot" tests="1" failures="0" errors="0" time="34" timestamp="2018-12-11 23:20:53" hostname="marce - FOLIO" id="Test Suites/Test Suite Bot">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon\\Bot\\Reports\\Test Suite Bot\\20181211_232048"/>
+         <property name="logFiles" value="C:\\Katalon\\Bot\\Reports\\Test Suite Bot\\20181211_232048\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="marce - FOLIO"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Firefox 63.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="fd59a56e-3656-4d53-89ac-3745e6783e03"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/BOT" classname="Test Cases/BOT" status="PASSED">
+         <system-out><![CDATA[2018-12-11 23:20:53 - [TEST_CASE][PASSED] - Test Cases/BOT: Test Cases/BOT
+
+2018-12-11 23:20:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-11 23:20:55 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2018-12-11 23:20:55 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-11 23:21:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-11 23:21:03 - [TEST_STEP][PASSED] - navigateToUrl("http://www.edenor.com.ar/cms/SP/CLI/home.html"): Navigate to 'http://www.edenor.com.ar/cms/SP/CLI/home.html' successfully
+
+2018-12-11 23:21:06 - [MESSAGE][PASSED] - Navigate to 'http://www.edenor.com.ar/cms/SP/CLI/home.html' successfully
+
+2018-12-11 23:21:06 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/BOT/Page_Edenor Clientes/img"), 0): Object 'Object Repository/BOT/Page_Edenor Clientes/img' is clickable
+
+2018-12-11 23:21:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-12-11 23:21:06 - [MESSAGE][PASSED] - Object 'Object Repository/BOT/Page_Edenor Clientes/img' is clickable
+
+2018-12-11 23:21:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BOT/Page_Edenor Clientes/img")): Object: 'Object Repository/BOT/Page_Edenor Clientes/img' is clicked on
+
+2018-12-11 23:21:07 - [MESSAGE][PASSED] - Object: 'Object Repository/BOT/Page_Edenor Clientes/img' is clicked on
+
+2018-12-11 23:21:07 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/BOT/Page_Edenor Clientes/div_Hola soy el asistente virt"), 0): Object 'Object Repository/BOT/Page_Edenor Clientes/div_Hola soy el asistente virt' is present
+
+2018-12-11 23:21:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-12-11 23:21:07 - [MESSAGE][PASSED] - Object 'Object Repository/BOT/Page_Edenor Clientes/div_Hola soy el asistente virt' is present
+
+2018-12-11 23:21:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/BOT/Page_Edenor Clientes/input_Hola_wdrgy-wc-shellinput"), "Hola"): Text 'Hola' is set on object 'Object Repository/BOT/Page_Edenor Clientes/input_Hola_wdrgy-wc-shellinput'
+
+2018-12-11 23:21:07 - [MESSAGE][PASSED] - Text 'Hola' is set on object 'Object Repository/BOT/Page_Edenor Clientes/input_Hola_wdrgy-wc-shellinput'
+
+2018-12-11 23:21:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BOT/Page_Edenor Clientes/img_edenor_wdrgy-console-icon")): Object: 'Object Repository/BOT/Page_Edenor Clientes/img_edenor_wdrgy-console-icon' is clicked on
+
+2018-12-11 23:21:08 - [MESSAGE][PASSED] - Object: 'Object Repository/BOT/Page_Edenor Clientes/img_edenor_wdrgy-console-icon' is clicked on
+
+2018-12-11 23:21:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/BOT/Page_Edenor Clientes/p_Hola Espero que ests muy bie"), 0): Object 'Object Repository/BOT/Page_Edenor Clientes/p_Hola Espero que ests muy bie' is present
+
+2018-12-11 23:21:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-12-11 23:21:10 - [MESSAGE][PASSED] - Object 'Object Repository/BOT/Page_Edenor Clientes/p_Hola Espero que ests muy bie' is present
+
+2018-12-11 23:21:10 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2018-12-11 23:21:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-11 23:21:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/BOT/Page_Edenor Clientes/input_Resolv tu consulta_wdrgy"), "Informacion"): Text 'Informacion' is set on object 'Object Repository/BOT/Page_Edenor Clientes/input_Resolv tu consulta_wdrgy'
+
+2018-12-11 23:21:15 - [MESSAGE][PASSED] - Text 'Informacion' is set on object 'Object Repository/BOT/Page_Edenor Clientes/input_Resolv tu consulta_wdrgy'
+
+2018-12-11 23:21:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BOT/Page_Edenor Clientes/img_Resolv tu consulta_wdrgy-c")): Object: 'Object Repository/BOT/Page_Edenor Clientes/img_Resolv tu consulta_wdrgy-c' is clicked on
+
+2018-12-11 23:21:15 - [MESSAGE][PASSED] - Object: 'Object Repository/BOT/Page_Edenor Clientes/img_Resolv tu consulta_wdrgy-c' is clicked on
+
+2018-12-11 23:21:15 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2018-12-11 23:21:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-11 23:21:20 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/BOT/Page_Edenor Clientes/p_MIDE es la nueva forma de co"), 0): Object 'Object Repository/BOT/Page_Edenor Clientes/p_MIDE es la nueva forma de co' is visible
+
+2018-12-11 23:21:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-12-11 23:21:20 - [MESSAGE][PASSED] - Object 'Object Repository/BOT/Page_Edenor Clientes/p_MIDE es la nueva forma de co' is visible
+
+2018-12-11 23:21:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/BOT/Page_Edenor Clientes/input_Resolv tu consulta_wdrgy"), "Gracias"): Text 'Gracias' is set on object 'Object Repository/BOT/Page_Edenor Clientes/input_Resolv tu consulta_wdrgy'
+
+2018-12-11 23:21:21 - [MESSAGE][PASSED] - Text 'Gracias' is set on object 'Object Repository/BOT/Page_Edenor Clientes/input_Resolv tu consulta_wdrgy'
+
+2018-12-11 23:21:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BOT/Page_Edenor Clientes/img_Resolv tu consulta_wdrgy-c")): Object: 'Object Repository/BOT/Page_Edenor Clientes/img_Resolv tu consulta_wdrgy-c' is clicked on
+
+2018-12-11 23:21:21 - [MESSAGE][PASSED] - Object: 'Object Repository/BOT/Page_Edenor Clientes/img_Resolv tu consulta_wdrgy-c' is clicked on
+
+2018-12-11 23:21:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2018-12-11 23:21:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-11 23:21:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-11 23:21:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-11 23:20:53 - [TEST_SUITE][PASSED] - Test Suite Bot: Test Cases/BOT]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
